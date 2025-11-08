@@ -49,5 +49,9 @@ While building this project, I strengthened my **frontend development foundation
 | **LocalStorage API** | Stores tasks and theme settings locally |
 
 ---
+## 📊 Google Analytics Integration  
+This app includes Google Analytics to track user interactions and gather insights on usage patterns. The tracking code is embedded in the HTML files using a Measurement ID to collect anonymized usage data. This helps improve the app based on real user behavior.
+
+---
 
 This project helped me practice and strengthen my web development foundations — it’s simple, functional, and built from scratch using only HTML, CSS, and JavaScript.
