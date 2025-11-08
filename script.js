@@ -41,8 +41,10 @@ function createTaskElement(text, completed = false) {
     e.stopPropagation();
     li.style.opacity = '0';
     li.style.transform = 'translateX(-20px)';
-    setTimeout(() => li.remove(), 300);
-    saveTasks();
+    setTimeout(() => {
+      li.remove();
+      saveTasks();
+    }, 300);
   });
 
   li.appendChild(delBtn);
@@ -83,3 +85,5 @@ function loadTheme() {
     themeBtn.textContent = '☀️';
   }
 }
+
+
